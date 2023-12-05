@@ -66,8 +66,9 @@ commandWords = "input"|"print"|"if"|"else"|"while"
 
 ## 2. Operações da linguagem
 
-
 codeBlock = begin{operations}+end
+
+main = main codeBlock
 
 operation = declaration | attribution | arithmetic | relational | logical | input | output | conditional | repetition
 
@@ -102,6 +103,7 @@ repetition = while leftParentheses logical rightParentheses begin {operation}* e
 | string | STRING |
 | type | TYPE |
 | codeBlock | CODE_BLOCK |
+| main | MAIN |
 | operation | OPERATION |
 | declaration | DECLARATION |
 | attribution | ATTRIBUTION |

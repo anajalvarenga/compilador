@@ -1,0 +1,18 @@
+{
+    string nomeLinguagem
+    nomeLinguagem = "Scripto"
+
+    int numIntegrantes
+    numIntegrantes = 2
+
+    string nomeIntegrante1
+    nomeIntegrante1 = "Ana"
+
+    string nomeIntegrante2
+    nomeIntegrante2 = "Ana"
+
+    float nota
+    nota = 10.0
+
+    print("ouo")
+}
