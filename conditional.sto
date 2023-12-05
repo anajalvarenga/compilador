@@ -1,0 +1,7 @@
+{
+    if(8 > 2) {
+        print("maior")
+    } else {
+        print("menor")
+    }
+}

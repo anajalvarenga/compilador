@@ -145,8 +145,8 @@ def p_logical(p):
         p[0] = p[1] or p[3]
 
 def p_input(p):
-    'input : INPUT LEFTPARENTHESES type_value RIGHTPARENTHESES'
-    p[0] = f'input({p[3]})'
+    'input : INPUT LEFTPARENTHESES RIGHTPARENTHESES'
+    p[0] = f'input()'
 
 def p_output(p):
     """

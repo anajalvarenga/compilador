@@ -9,10 +9,11 @@
     nomeIntegrante1 = "Ana"
 
     string nomeIntegrante2
-    nomeIntegrante2 = "Ana"
+    nomeIntegrante2 = "Fernanda"
+
+    print("nota")
 
     float nota
-    nota = 10.0
-
-    print("ouo")
+    nota = input()
+    
 }
